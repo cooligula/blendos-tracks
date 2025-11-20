@@ -8,15 +8,20 @@ packages:
   - 'gnome-shell-extension-appindicator'
   - 'gnome-initial-setup'
   - 'filesystem-blend'
-  #- 'firefox'
   - 'fprintd'
   - 'papirus-icon-theme'
+
   # VM
   - 'gnome-boxes'
   - 'spice'
   - 'spice-vdagent'
   - 'spice-gtk'
   - 'spice-protocol'
+
+  # Shell
+  - 'zsh'
+  - 'zsh-completions'
+  - 'zsh-syntax-highlighting'
 
 services:
   - 'fprintd'
@@ -25,6 +30,7 @@ aur-packages:
   - 'zen-browser-bin'
   - 'vscodium-bin'
   - 'gnome-shell-extension-just-perfection-desktop'
+  - 'ttf-adwaita-mono-nerd'
 
 commands:
   - 'find /usr/share/metainfo ! -name "org.freedesktop.appstream.cli.metainfo.xml" ! -name "org.freedesktop.appstream.compose.metainfo.xml" ! -name "org.gnome.Software.Plugin.Flatpak.metainfo.xml" ! -name "org.gnome.Software.Plugin.Fwupd.metainfo.xml"  -type f -exec rm -f {} +'
