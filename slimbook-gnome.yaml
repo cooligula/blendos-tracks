@@ -10,3 +10,7 @@ aur-packages:
   - slimbookbattery
   - slimbookservice-bin
   - slimbookamdcontroller
+
+services:
+  - tailscaled
+  - cronie
