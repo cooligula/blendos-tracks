@@ -8,6 +8,7 @@ packages:
   - 'papers' # new version of evince
   #- 'evince'
   - 'gdm'
+  - 'gnome-tweaks'
   - 'gnome-backgrounds'
   - 'gnome-calculator'
   - 'gnome-calendar'
