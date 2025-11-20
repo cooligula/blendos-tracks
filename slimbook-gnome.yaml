@@ -1,3 +1,12 @@
-impl: 'https://github.com/cooligula/blendos-tracks.git/raw/main'
+impl: 'https://raw.githubusercontent.com/cooligula/blendos-tracks/main'
 
 track: 'default-gnome'
+
+packages:
+  - tailscale
+  - cronie
+
+aur-packages:
+  - slimbookbattery
+  - slimbookservice-bin
+  - slimbookamdcontroller
