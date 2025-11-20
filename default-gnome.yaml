@@ -6,13 +6,25 @@ packages:
   - 'gnome-shell-extension-dash-to-dock'
   - 'gnome-shell-extension-blur-my-shell'
   - 'gnome-shell-extension-appindicator'
+  - 'gnome-shell-extension-just-perfection'
   - 'gnome-initial-setup'
   - 'filesystem-blend'
-  - 'firefox'
+  #- 'firefox'
   - 'fprintd'
+  - 'papirus-icon-theme'
+  # VM
+  - 'gnome-boxes'
+  - 'spice'
+  - 'spice-vdagent'
+  - 'spice-gtk'
+  - 'spice-protocol'
 
 services:
   - 'fprintd'
+
+aur-packages:
+  - 'zen-browser'
+  - 'vscodium'
 
 commands:
   - 'find /usr/share/metainfo ! -name "org.freedesktop.appstream.cli.metainfo.xml" ! -name "org.freedesktop.appstream.compose.metainfo.xml" ! -name "org.gnome.Software.Plugin.Flatpak.metainfo.xml" ! -name "org.gnome.Software.Plugin.Fwupd.metainfo.xml"  -type f -exec rm -f {} +'
@@ -24,3 +36,4 @@ commands:
   - 'rm -f /usr/share/applications/electron*.desktop'
   - 'rm -f /usr/share/applications/avahi-discover.desktop'
   - 'rm -f /usr/share/applications/bssh.desktop'
+  - 'gsettings set org.gnome.desktop.interface icon-theme "Papirus Dark"'
