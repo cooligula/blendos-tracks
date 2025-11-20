@@ -6,7 +6,6 @@ packages:
   - 'gnome-shell-extension-dash-to-dock'
   - 'gnome-shell-extension-blur-my-shell'
   - 'gnome-shell-extension-appindicator'
-  - 'gnome-shell-extension-just-perfection'
   - 'gnome-initial-setup'
   - 'filesystem-blend'
   #- 'firefox'
@@ -25,6 +24,7 @@ services:
 aur-packages:
   - 'zen-browser'
   - 'vscodium'
+  - 'gnome-shell-extension-just-perfection-desktop'
 
 commands:
   - 'find /usr/share/metainfo ! -name "org.freedesktop.appstream.cli.metainfo.xml" ! -name "org.freedesktop.appstream.compose.metainfo.xml" ! -name "org.gnome.Software.Plugin.Flatpak.metainfo.xml" ! -name "org.gnome.Software.Plugin.Fwupd.metainfo.xml"  -type f -exec rm -f {} +'
