@@ -119,6 +119,7 @@ packages:
   - 'networkmanager'
   - 'cups'
   - 'ttf-jetbrains-mono'
+  - 'fastfetch'
 
 services:
   - 'cups'
