@@ -61,7 +61,7 @@ packages:
   - 'intel-ucode'
   - 'irssi'
   - 'less'
-  - 'lshw'
+  #- 'lshw'
   - 'libfido2'
   - 'libusb-compat'
   - 'linux-zen'
